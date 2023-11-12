@@ -3,7 +3,7 @@ from twilio.twiml.messaging_response import MessagingResponse, Body, Message, Re
 import requests 
 
 API_URL = "https://api-inference.huggingface.co/models/microsoft/DialoGPT-medium"
-API_TOKEN = "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"
+API_TOKEN = ""
 
 past_user_inputs = []
 generated_responses = []
